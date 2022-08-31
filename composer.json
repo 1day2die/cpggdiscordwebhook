@@ -1,0 +1,25 @@
+{
+    "name": "1day2die/cpgg-discordwebhook",
+    "description": "A Discord Message Webhook for controlpanel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OneDayToDie\\DiscordWebHook\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "1Day2Die",
+            "email": "info@hafuga.de"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OneDayToDie\\DiscordWebHook\\DiscordWebhookServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

@@ -1,1 +1,1 @@
-# cpggdiscordwebhook
+# cpggwebhook
