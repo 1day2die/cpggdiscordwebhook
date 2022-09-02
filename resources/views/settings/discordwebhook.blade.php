@@ -10,10 +10,10 @@
         <div class="row">
             <div class="col-lg-6">
 
-                <x-input.text label="{{(__('Webhook URL'))}}"
+                <x-input.text label="{{__('Webhook URL')}}"
                               name="webhook_url"
                               value="{{$settings->webhook_url}}"
-                              tooltip="{{(__('Enter the URL to your Discord Webhook '))}}"/>
+                              tooltip="{{__('Enter the URL to your Discord Webhook ')}}"/>
 
 
 
