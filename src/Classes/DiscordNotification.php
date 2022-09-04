@@ -3,9 +3,9 @@
 namespace OneDayToDie\DiscordWebHook\Classes;
 
 
-use Illuminate\Http\Client\PendingRequest;
-use Illuminate\Http\Client\Response;
+use Exception;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 
 class DiscordNotification
 {
@@ -22,7 +22,8 @@ DiscordNotification::embed("https://discord.com/api/webhooks/1014441714951409746
 
 public static function embed($webhookurl, $title="Embed is working", $description = "Hi, im Comming from CPGG v1", $color="149100")
     {
-        return Http::post($webhookurl, [
+        try{
+          Http::post($webhookurl, [
             'embeds' => [
                 [
                     'title' => $title,
@@ -31,5 +32,9 @@ public static function embed($webhookurl, $title="Embed is working", $descriptio
                 ]
             ],
         ]);
+
+    }catch (Exception $e){
+            Log::debug("Error while sending Webhook: ".$e);
+        }
     }
 }
