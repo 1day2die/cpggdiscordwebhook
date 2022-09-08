@@ -29,3 +29,7 @@ https://gist.github.com/thomasbnt/b6f455e2c7d743b796917fa3c205f812
 ## Support
 DM me on Discord or Join my Discord Hub
 https://discord.gg/UgJcvgCg6N
+
+## Support me!
+
+https://www.patreon.com/1day2die
