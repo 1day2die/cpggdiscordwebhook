@@ -32,4 +32,4 @@ https://discord.gg/UgJcvgCg6N
 
 ## Support me!
 
-https://www.patreon.com/1day2die
+https://ko-fi.com/1day2die
