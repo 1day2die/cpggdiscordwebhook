@@ -3,10 +3,9 @@ namespace OneDayToDie\DiscordWebHook;
 
 
 use Illuminate\Support\ServiceProvider;
-use App\Enums\NavigationLocation;
 
 class DiscordWebhookServiceProvider extends ServiceProvider
-    
+{
     public function boot()
     {
 
