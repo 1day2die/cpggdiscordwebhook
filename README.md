@@ -1,7 +1,7 @@
 
 # Controlpanel Discord Webhook Integration
 
-Helper Class for Discord Webhooks and more
+Helper Class for Discord Webhooks and more<br/>
   <a href='https://ko-fi.com/1day2die' target='_blank'><img height='35' style='border:0px;height:20px;' src='https://ko-fi.com/img/githubbutton_sm.svg' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
 #### Features
